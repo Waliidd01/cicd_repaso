@@ -32,7 +32,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            # Etiqueta para Docker Hub
             waliidd/practica_cicd:latest
-            # Etiqueta para GitHub Container Registry (ghcr.io)
+
             ghcr.io/waliidd01/practica_cicd:latest
